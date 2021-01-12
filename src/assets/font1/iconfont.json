@@ -1,0 +1,65 @@
+{
+  "id": "2321339",
+  "name": "duitang",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "6027497",
+      "name": "首页",
+      "font_class": "shouye",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "11852269",
+      "name": "分类",
+      "font_class": "fenlei",
+      "unicode": "e619",
+      "unicode_decimal": 58905
+    },
+    {
+      "icon_id": "12796466",
+      "name": "我的",
+      "font_class": "wode",
+      "unicode": "e63b",
+      "unicode_decimal": 58939
+    },
+    {
+      "icon_id": "14445933",
+      "name": "发现",
+      "font_class": "faxian",
+      "unicode": "e771",
+      "unicode_decimal": 59249
+    },
+    {
+      "icon_id": "584251",
+      "name": "右箭头",
+      "font_class": "iconfontjiantou5",
+      "unicode": "e635",
+      "unicode_decimal": 58933
+    },
+    {
+      "icon_id": "17467214",
+      "name": "应付管理",
+      "font_class": "yingfuguanli",
+      "unicode": "e627",
+      "unicode_decimal": 58919
+    },
+    {
+      "icon_id": "17477158",
+      "name": "促销管理",
+      "font_class": "cuxiaoguanli",
+      "unicode": "e62b",
+      "unicode_decimal": 58923
+    },
+    {
+      "icon_id": "17481094",
+      "name": "合同管理",
+      "font_class": "hetongguanli",
+      "unicode": "e62c",
+      "unicode_decimal": 58924
+    }
+  ]
+}
