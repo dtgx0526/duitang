@@ -1,6 +1,7 @@
 import catgory1 from '@/views/catgory/index'
 import catgory2 from '@/views/catgory/index2'
 import catgory3 from '@/views/catgory/index3'
+import catgory4 from '@/views/catgory/index4'
 import detail from '@/views/catgory/detail'
 
 var catgoryRouter = [
@@ -27,6 +28,11 @@ var catgoryRouter = [
     path: '/detail',
     name: 'detail',
     component: detail
+  },
+  {
+    path: '/catgory/cat=4',
+    name: 'catgory4',
+    component: catgory4
   },
 ];
 

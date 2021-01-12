@@ -1,6 +1,6 @@
 let prefix="/duitang";
 
 export default {
-    getIndex: prefix+"/catgory",
+    getData: prefix+"/pang",
     
   };

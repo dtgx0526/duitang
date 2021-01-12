@@ -25,7 +25,7 @@
           />
           <p>主食</p>
         </div>
-        <div class="picture">
+        <div class="picture" @click="changePage4">
           <img
             src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=2853553659,1775735885&fm=26&gp=0.jpg"
             alt=""
@@ -84,6 +84,9 @@ export default {
     },
     changePage3() {
       this.$router.push("cat=3");
+    },
+    changePage4() {
+      this.$router.push("cat=4");
     },
   },
   created() {
