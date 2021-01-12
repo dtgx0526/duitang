@@ -6,27 +6,13 @@
             <van-swipe-item><img src="../../assets/images/lunbo.jpg" alt=""></van-swipe-item>
         </van-swipe>
 
-        <div>
-            <ul class="Lateral">
-                <li class="filss">
-                    <div><img src="../../assets/images/kapian.jpg" alt=""><p class="navtext">内容</p></div>
-                </li>
-                <li>
-                    <div><img src="../../assets/images/kapian.jpg" alt=""><p class="navtext">内容</p></div>
-                </li>
-                <li>
-                    <div><img src="../../assets/images/kapian.jpg" alt=""><p class="navtext">内容</p></div>
-                </li>
-                <li>
-                    <div><img src="../../assets/images/kapian.jpg" alt=""><p class="navtext">内容</p></div>
-                </li>
-                <li>
-                    <div><img src="../../assets/images/kapian.jpg" alt=""><p class="navtext">内容</p></div>
-                </li>
-                <li>
-                    <div><img src="../../assets/images/kapian.jpg" alt=""><p class="navtext">内容</p></div>
-                </li>
-            </ul>
+        <div class="Lateral">
+            <li><img src="../../assets/images/kapian.jpg" ><p>内容</p></li>
+            <li><img src="../../assets/images/kapian.jpg" ><p>内容</p></li>
+            <li><img src="../../assets/images/kapian.jpg" ><p>内容</p></li>
+            <li><img src="../../assets/images/kapian.jpg" ><p>内容</p></li>
+            <li><img src="../../assets/images/kapian.jpg" ><p>内容</p></li>
+            <li><img src="../../assets/images/kapian.jpg" ><p>内容</p></li>
         </div>
         <div>
             <div class="bang">
@@ -96,33 +82,30 @@ export default {
     text-align: center;
   }
   img{
-      height: 200px;
+      width: 100%;
+      height: 100%;
   }
-  ul,li{
-      list-style: none;
-      margin: 0;
-      padding: 0;
-      cursor: pointer;
-  }
-  .Lateral{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 150px;
-    margin: 10px 35px;
-    overflow: scroll;
-  }
-  .Lateral>li{
-      margin: 0 5px;
-  }
-  .navtext,h3{
+  .navtext,h3,p{
       margin: 0;
       padding: 0;
       text-align: center;
   }
-  .Lateral>li>div>img{
-      width: 100px;
-      height: 100px;
+  .Lateral{
+      display: flex;
+      height: 105px;
+      overflow: scroll;
+      padding: 8px 3px;
+      font-size: 16px;
+  }
+  .Lateral>li{
+      list-style: none;
+      margin-right: 8px;
+      display: flex;
+      flex-direction: column;
+  }
+  .Lateral>li>img{
+      width: 80px;
+      height: 80px;
   }
   .bang{
       display: flex;
@@ -144,8 +127,7 @@ export default {
   }
   .bangcen>img{
       margin:5px 8px;
-      width: 100%;
-      height: 100%;
+      width: 46%;
   }
   .bigbody{
       margin-bottom:52px ;

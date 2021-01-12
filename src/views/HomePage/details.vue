@@ -4,7 +4,9 @@
         <div class="bigbody">
             <div class="centerbox">
                 <div>
-                    <img src="../../assets/xiangqing.jpg" alt="">
+                    <div>
+                        <img class="bigimg" src="../../assets/xiangqing.jpg" alt="">
+                    </div>
                     <h5>『内容』</h5>
                     <span>★666</span>
                     <div class="fabox">
@@ -16,7 +18,9 @@
             </div>
             <div class="centerbox">
                 <div>
-                    <img src="../../assets/xiangqing.jpg" alt="">
+                    <div>
+                        <img class="bigimg" src="../../assets/xiangqing.jpg" alt="">
+                    </div>
                     <h5>『内容』</h5>
                     <span>★666</span>
                     <div class="fabox">
@@ -26,6 +30,7 @@
                     </div>
                 </div>
             </div>
+            
         </div>
     </div>
 </template>
@@ -59,6 +64,8 @@ export default {
     justify-content: space-evenly;
 }
 .centerbox{
+    width: 45%;
+    height: 270px;
     display: flex;
     justify-content: space-evenly;
     flex-wrap:wrap;
@@ -96,7 +103,7 @@ p{
     font-size: 12px;
     position: absolute;
     bottom: 3px;
-    left: 50px;
+    left: 20px;
 }
 .pushback{
     position: absolute;
