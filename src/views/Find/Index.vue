@@ -1,5 +1,6 @@
 <template>
     <div>
+
         <p>发现</p>
         <img src="//s.syzs.qq.com/gameassistant/web/0c4b2a0dd65c08aa94ce8979cf4bf5e2.jpg.big.webp" alt="">
         <img src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fc-ssl.duitang.com%2Fuploads%2Fitem%2F201903%2F10%2F20190310171650_rnklq.thumb.400_0.jpeg&refer=http%3A%2F%2Fc-ssl.duitang.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1612947438&t=1213cccc122163b31bdd24578f924da7" alt="">
@@ -21,3 +22,8 @@ p{
         height: 222.66px;
     }
 </style>
+
+        《发现模块》
+    </div>
+</template>
+
