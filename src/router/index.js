@@ -2,10 +2,16 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 
 
+import catgoryRouter from './route/catgory'
+
+
+
+
 
 
 import My from '@/views/my/My'
 import Login from '@/views/my/login'
+
 
 Vue.use(VueRouter)
 // import Home from '@/views/Home/Index'
@@ -26,6 +32,9 @@ Vue.use(VueRouter)
 // 导入需要的组件
 import Find from "@/views/Find/Index"
 const routes = [
+
+
+  ...catgoryRouter,
 
   {
 
@@ -55,6 +64,7 @@ const routes = [
   //   // which is lazy-loaded when the route is visited.
   //   component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
   // }
+
 
 
     // 路由重定向
@@ -109,5 +119,10 @@ const router = new VueRouter({
   base: process.env.BASE_URL,
   routes
 })
+
+const originalPush = VueRouter.prototype.push;
+VueRouter.prototype.push = function push(location) {
+    return originalPush.call(this, location).catch((err) => err);
+};
 
 export default router
