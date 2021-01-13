@@ -1,0 +1,51 @@
+{
+  "id": "2321960",
+  "name": "no name",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "11755619",
+      "name": "登录 (1)",
+      "font_class": "denglu",
+      "unicode": "e640",
+      "unicode_decimal": 58944
+    },
+    {
+      "icon_id": "1136912",
+      "name": "清除缓存",
+      "font_class": "qingchuhuancun",
+      "unicode": "e6bd",
+      "unicode_decimal": 59069
+    },
+    {
+      "icon_id": "7747034",
+      "name": "App",
+      "font_class": "App",
+      "unicode": "e68f",
+      "unicode_decimal": 59023
+    },
+    {
+      "icon_id": "10950265",
+      "name": "订阅",
+      "font_class": "dingyue",
+      "unicode": "e85f",
+      "unicode_decimal": 59487
+    },
+    {
+      "icon_id": "13526258",
+      "name": "收 藏 (1)",
+      "font_class": "shoucang",
+      "unicode": "e64f",
+      "unicode_decimal": 58959
+    },
+    {
+      "icon_id": "17699306",
+      "name": "好评 选中 leo",
+      "font_class": "haopingxuanzhong-01",
+      "unicode": "e63f",
+      "unicode_decimal": 58943
+    }
+  ]
+}

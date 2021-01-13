@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="logo">
-            <img src="https://c-ssl.duitang.com/uploads/blog/202012/01/20201201095849_9ed52.thumb.700_0.jpg" />
+            <img src="../../assets/logo.jpg" />
         </div>
         <div>
             <van-form @submit="onSubmit">
