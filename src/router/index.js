@@ -1,7 +1,16 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 
+
 import catgoryRouter from './route/catgory'
+
+
+
+
+
+
+import My from '@/views/my/My'
+import Login from '@/views/my/login'
 
 
 Vue.use(VueRouter)
@@ -18,9 +27,45 @@ import typeRouter from './routes/types'
 import findRouter from './routes/find'
 import centerRouter from './routes/center'
 
+
+Vue.use(VueRouter)
+// 导入需要的组件
+import Find from "@/views/Find/Index"
 const routes = [
 
+
   ...catgoryRouter,
+
+  {
+
+    path:"/find",
+    component:Find,
+  }
+  
+
+    path:'/my',
+    component:My
+  },
+  {
+    path:'/login',
+    component:Login
+  }
+  // {
+  //   path: '/',
+  //   name: 'Home',
+  //   component: Home
+  // },
+
+  // {
+  //   path: '/about',
+  //   name: 'About',
+  //   // route level code-splitting
+  //   // this generates a separate chunk (about.[hash].js) for this route
+  //   // which is lazy-loaded when the route is visited.
+  //   component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
+  // }
+
+
 
     // 路由重定向
     {
@@ -65,6 +110,7 @@ const routes = [
 //     // which is lazy-loaded when the route is visited.
 //     component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
 //   }
+
 
 ]
 
