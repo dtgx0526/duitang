@@ -1,6 +1,6 @@
 <template>
   <div>
-    <van-tabbar v-model="active" active-color="#ee0a24" inactive-color="#000" @change="changeItem">
+    <van-tabbar v-show="$store.state.global.isShowFooter" v-model="active" active-color="#ee0a24" inactive-color="#000" @change="changeItem">
       <van-tabbar-item ><van-icon class-prefix="iconfont icon-shouye" slot="icon" size="1.4rem" /><span>首页</span></van-tabbar-item>
       <van-tabbar-item ><van-icon class-prefix="iconfont icon-fenlei" slot="icon" size="1.4rem" /><span>分类</span></van-tabbar-item>
       <van-tabbar-item ><van-icon class-prefix="iconfont icon-faxian" slot="icon" size="1.4rem" /><span>发现</span></van-tabbar-item>
