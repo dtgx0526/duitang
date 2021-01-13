@@ -17,7 +17,7 @@
         <div>
             <div class="bang">
                 <h3> <img src="../../assets/images/biaoti.jpg" alt="">今日排行榜</h3>
-                <span @click="aaaaa">更多></span>
+                <span @click="aaaaa">o(*≧▽≦)ツ┏━┓</span>
             </div>
             <div class="bangcen">
                 <img src="../../assets/images/renwu.jpg" alt="">
@@ -30,7 +30,7 @@
         <div>
             <div class="bang">
                 <h3> <img src="../../assets/images/biaoti.jpg" alt="">热血精选</h3>
-                <span @click="aaaaa">更多></span>
+                <span @click="aaaaa">o(*≧▽≦)ツ┏━┓</span>
             </div>
             <div class="bangcen">
                 <img src="../../assets/images/renwu.jpg" alt="">
@@ -43,7 +43,7 @@
         <div>
             <div class="bang">
                 <h3> <img src="../../assets/images/biaoti.jpg" alt="">校园精选</h3>
-                <span @click="aaaaa">更多></span>
+                <span @click="aaaaa">o(*≧▽≦)ツ┏━┓</span>
             </div>
             <div class="bangcen">
                 <img src="../../assets/images/renwu.jpg" alt="">
