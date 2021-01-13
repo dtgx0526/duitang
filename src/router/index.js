@@ -1,6 +1,9 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 
+
+
+
 import My from '@/views/my/My'
 import Login from '@/views/my/login'
 
@@ -18,9 +21,19 @@ import typeRouter from './routes/types'
 import findRouter from './routes/find'
 import centerRouter from './routes/center'
 
+
+Vue.use(VueRouter)
+// 导入需要的组件
+import Find from "@/views/Find/Index"
 const routes = [
 
   {
+
+    path:"/find",
+    component:Find,
+  }
+  
+
     path:'/my',
     component:My
   },
@@ -33,6 +46,7 @@ const routes = [
   //   name: 'Home',
   //   component: Home
   // },
+
   // {
   //   path: '/about',
   //   name: 'About',
@@ -41,6 +55,7 @@ const routes = [
   //   // which is lazy-loaded when the route is visited.
   //   component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
   // }
+
 
     // 路由重定向
     {
@@ -85,6 +100,7 @@ const routes = [
 //     // which is lazy-loaded when the route is visited.
 //     component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
 //   }
+
 
 ]
 
