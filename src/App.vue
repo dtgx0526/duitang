@@ -1,37 +1,13 @@
 <template>
   <div id="app">
-
-
-   
-    <router-view/>
-  </div>
-</template>
-
-
-
-<style lang="scss">
-
-
-
-    <router-view/>
-  </div>
-</template>
-<script>
-export default {
-  
-}
-</script>
-
-
     <Footer />
-
     <router-view/>
   </div>
 </template>
+
 
 <script>
 import Footer from '@/components/Navigation/Footer'
-
 export default {
     // 注册组件
     components:{
@@ -39,9 +15,9 @@ export default {
       
     },
 }
-</script>
-<style lang="scss">
 
+
+</script>
+<style lang="scss" scoped>
 
 </style>
-

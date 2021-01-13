@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="logo">
-            <img src="../../assets/logo.jpg" />
+            <img class="one" src="../../assets/logo.jpg" />
         </div>
         <div>
             <van-form @submit="onSubmit">
@@ -55,7 +55,7 @@ export default {
                     if(this.$route.query.callback){
                         this.router.push(this.$route.query.callback)
                     }else{
-                        this.$router.push('/my')
+                        this.$router.push('/center')
                     }
                 }else{
                     Toast.success('登录失败')
@@ -69,9 +69,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.one{
+    border-radius: 0;
+}
 .logo {
-    margin-top: px;
-    
     text-align: center;
     
 }

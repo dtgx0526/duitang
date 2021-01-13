@@ -23,7 +23,7 @@ export default {
         return{
             active:0,
             //定义底部导航需要的四个地址
-            urls:["/home/choice","/types","/find","/center"]
+            urls:["/home/choice","/catgory","/find","/center"]
         }
     },
     // 纠正刷新之后索引归零的问题  获取路由信息

@@ -9,7 +9,7 @@ import catgoryRouter from './route/catgory'
 
 
 
-import My from '@/views/my/My'
+
 import Login from '@/views/my/login'
 
 
@@ -40,16 +40,16 @@ const routes = [
 
     path:"/find",
     component:Find,
-  }
-  
-
-    path:'/my',
-    component:My
   },
+  // {
+
+  //   path:'/my',
+  //   component:My
+  // },
   {
     path:'/login',
     component:Login
-  }
+  },
   // {
   //   path: '/',
   //   name: 'Home',
@@ -74,7 +74,6 @@ const routes = [
     },
     // 模块化
     homeRouter,
-    typeRouter,
     findRouter,
     centerRouter
     // 首页路由

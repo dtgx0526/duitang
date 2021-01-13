@@ -1,6 +1,6 @@
-import Center from '@/views/Center/Index'
+import My from '@/views/my/My'
 var center = {
     path:"/center",
-    component:Center,
+    component:My,
 }
 export default center

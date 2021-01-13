@@ -124,10 +124,11 @@ export default {
 <style lang="scss" scoped>
 .one{
     width: 100%;
+    border-radius: 0;
 }
 
 .iconfont {
-  font-family: "iconfont" !important;
+  font-family: "iconfont" !important;   
   font-size: 16px;
   font-style: normal;
   -webkit-font-smoothing: antialiased;

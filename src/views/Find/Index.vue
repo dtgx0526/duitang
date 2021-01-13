@@ -23,7 +23,4 @@ p{
     }
 </style>
 
-        《发现模块》
-    </div>
-</template>
 
