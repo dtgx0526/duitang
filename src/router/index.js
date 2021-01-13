@@ -1,5 +1,9 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
+
+import My from '@/views/my/My'
+import Login from '@/views/my/login'
+
 Vue.use(VueRouter)
 // import Home from '@/views/Home/Index'
 // import New from '@/views/Home/New'
@@ -15,6 +19,29 @@ import findRouter from './routes/find'
 import centerRouter from './routes/center'
 
 const routes = [
+
+  {
+    path:'/my',
+    component:My
+  },
+  {
+    path:'/login',
+    component:Login
+  }
+  // {
+  //   path: '/',
+  //   name: 'Home',
+  //   component: Home
+  // },
+  // {
+  //   path: '/about',
+  //   name: 'About',
+  //   // route level code-splitting
+  //   // this generates a separate chunk (about.[hash].js) for this route
+  //   // which is lazy-loaded when the route is visited.
+  //   component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
+  // }
+
     // 路由重定向
     {
         path:"/",
@@ -58,6 +85,7 @@ const routes = [
 //     // which is lazy-loaded when the route is visited.
 //     component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
 //   }
+
 ]
 
 const router = new VueRouter({

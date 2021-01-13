@@ -1,5 +1,15 @@
 <template>
   <div id="app">
+
+    <router-view/>
+  </div>
+</template>
+<script>
+export default {
+  
+}
+</script>
+
     <Footer />
    
     <router-view/>
@@ -20,3 +30,4 @@ export default {
 <style lang="scss">
 
 </style>
+
