@@ -57,6 +57,9 @@ export default {
                 console.log(ret)
             })
         },
+        pushback(){
+            this.$router.push("/home/Choice")
+        }
     }
 }
 </script>

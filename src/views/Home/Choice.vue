@@ -66,7 +66,7 @@ Vue.use(SwipeItem);
 export default {
     methods:{
         aaaaa(){
-            this.$router.push("details")
+            this.$router.push("/home/details")
         }
     }
 }

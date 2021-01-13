@@ -111,7 +111,7 @@ export default {
   },
   created() {
     this.$http.get(uri.getData).then((res) => {
-      this.cat = res;
+      this.cat = res.data.union_categorys;
       console.log(res);
       this.flag = false;
     });
@@ -132,6 +132,7 @@ export default {
   position: fixed;
   top: 40px;
   left: 0;
+  height: 95%;
 }
 .rightlist {
   /* flex: 1; */
