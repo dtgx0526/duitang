@@ -1,11 +1,7 @@
 <template>
     <div>
         <h4 class="taytitle">今日排行榜<i class="pushback" @click="pushback">←</i></h4>
-
-<div class="bigbody">
-
-
-            
+        <div class="bigbody">
             <div class="centerbox" v-for="(item,index) in list" :key="index">
                 <div>
                     <div>
@@ -20,9 +16,7 @@
                     </div>
                 </div>
             </div>
-
-</div>
-
+        </div>
     </div>
 </template>
 
@@ -33,7 +27,6 @@ import Vue from 'vue';
 import { List } from 'vant';
 
 Vue.use(List);
-
 
 export default {
   data() {

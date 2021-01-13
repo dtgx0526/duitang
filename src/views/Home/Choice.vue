@@ -2,17 +2,16 @@
     <div class="bigbody">
         <van-swipe class="my-swipe" :autoplay="3000" indicator-color="white">
             <van-swipe-item><img src="../../assets/images/lunbo.jpg" alt=""></van-swipe-item>
-            <van-swipe-item><img src="../../assets/images/lunbo.jpg" alt=""></van-swipe-item>
-            <van-swipe-item><img src="../../assets/images/lunbo.jpg" alt=""></van-swipe-item>
+            <van-swipe-item><img src="../../assets/images/lunbo2.jpg" alt=""></van-swipe-item>
         </van-swipe>
 
         <div class="Lateral">
-            <li><img src="../../assets/images/kapian.jpg" ><p>内容</p></li>
-            <li><img src="../../assets/images/kapian.jpg" ><p>内容</p></li>
-            <li><img src="../../assets/images/kapian.jpg" ><p>内容</p></li>
-            <li><img src="../../assets/images/kapian.jpg" ><p>内容</p></li>
-            <li><img src="../../assets/images/kapian.jpg" ><p>内容</p></li>
-            <li><img src="../../assets/images/kapian.jpg" ><p>内容</p></li>
+            <li><img src="../../assets/images/kapian4.jpg" ><p>壁纸制作</p></li>
+            <li><img src="../../assets/images/kapian2.jpg" ><p>动态壁纸</p></li>
+            <li><img src="../../assets/images/kapian3.jpg" ><p>滤镜</p></li>
+            <li><img src="../../assets/images/kapian.jpg" ><p>文字</p></li>
+            <li><img src="../../assets/images/kapian2.jpg" ><p>拼漫</p></li>
+            <li><img src="../../assets/images/kapian3.jpg" ><p>内容</p></li>
         </div>
         <div>
             <div class="bang">
@@ -21,10 +20,10 @@
             </div>
             <div class="bangcen">
                 <img src="../../assets/images/renwu.jpg" alt="">
-                <img src="../../assets/images/renwu.jpg" alt="">
-                <img src="../../assets/images/renwu.jpg" alt="">
-                <img src="../../assets/images/renwu.jpg" alt="">
-                <img src="../../assets/images/renwu.jpg" alt="">
+                <img src="../../assets/images/renw2.jpg" alt="">
+                <img src="../../assets/images/renw3.jpg" alt="">
+                <img src="../../assets/images/renw5.jpg" alt="">
+                <img src="../../assets/images/renw4.jpg" alt="">
             </div>
         </div>
         <div>
@@ -33,11 +32,11 @@
                 <span @click="aaaaa">o(*≧▽≦)ツ┏━┓</span>
             </div>
             <div class="bangcen">
+                <img src="../../assets/images/renw5.jpg" alt="">
+                <img src="../../assets/images/renw3.jpg" alt="">
+                <img src="../../assets/images/renw4.jpg" alt="">
                 <img src="../../assets/images/renwu.jpg" alt="">
-                <img src="../../assets/images/renwu.jpg" alt="">
-                <img src="../../assets/images/renwu.jpg" alt="">
-                <img src="../../assets/images/renwu.jpg" alt="">
-                <img src="../../assets/images/renwu.jpg" alt="">
+                <img src="../../assets/images/renw2.jpg" alt="">
             </div>
         </div>
         <div>
@@ -46,11 +45,11 @@
                 <span @click="aaaaa">o(*≧▽≦)ツ┏━┓</span>
             </div>
             <div class="bangcen">
+                <img src="../../assets/images/renw4.jpg" alt="">
                 <img src="../../assets/images/renwu.jpg" alt="">
-                <img src="../../assets/images/renwu.jpg" alt="">
-                <img src="../../assets/images/renwu.jpg" alt="">
-                <img src="../../assets/images/renwu.jpg" alt="">
-                <img src="../../assets/images/renwu.jpg" alt="">
+                <img src="../../assets/images/renw5.jpg" alt="">
+                <img src="../../assets/images/renw3.jpg" alt="">
+                <img src="../../assets/images/renw2.jpg" alt="">
             </div>
         </div>
     </div>
